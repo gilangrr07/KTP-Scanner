@@ -1,0 +1,258 @@
+
+body{
+    background:#eef2f7;
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    color:#2d3436;
+}
+
+/* ===========================================
+   HEADER
+=========================================== */
+
+h1{
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+.text-muted{
+    font-size:15px;
+}
+
+/* ===========================================
+   CARD
+=========================================== */
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.25s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+
+}
+
+.card-header{
+
+    background:#0d6efd;
+
+    color:white;
+
+    font-weight:600;
+
+    border-radius:18px 18px 0 0 !important;
+
+    font-size:16px;
+
+}
+
+/* ===========================================
+   BUTTON
+=========================================== */
+
+.btn-primary{
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    height:48px;
+
+}
+
+.btn-primary:hover{
+
+    transform:scale(1.02);
+
+}
+
+/* ===========================================
+   FILE INPUT
+=========================================== */
+
+.form-control{
+
+    border-radius:12px;
+
+    min-height:48px;
+
+}
+
+/* ===========================================
+   PROGRESS
+=========================================== */
+
+.progress{
+
+    height:28px;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    background:#dfe6e9;
+
+}
+
+.progress-bar{
+
+    font-weight:bold;
+
+    font-size:14px;
+
+}
+
+/* ===========================================
+   STATUS
+=========================================== */
+
+#statusBox{
+
+    margin-top:15px;
+
+    background:#f8f9fa;
+
+    border-left:5px solid #0d6efd;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    font-weight:500;
+
+}
+
+/* ===========================================
+   IMAGE
+=========================================== */
+
+.preview{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:contain;
+
+    border-radius:12px;
+
+    background:white;
+
+    border:2px dashed #d6d6d6;
+
+    padding:10px;
+
+}
+
+/* ===========================================
+   OCR
+=========================================== */
+
+textarea{
+
+    resize:none;
+
+}
+
+/* ===========================================
+   INPUT
+=========================================== */
+
+label{
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+}
+
+input{
+
+    border-radius:10px !important;
+
+}
+
+textarea{
+
+    border-radius:10px !important;
+
+}
+
+/* ===========================================
+   ANIMATION
+=========================================== */
+
+.card{
+
+    animation:fadeIn .5s;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================================
+   SCROLLBAR
+=========================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#0d6efd;
+
+    border-radius:20px;
+
+}
+
+/* ===========================================
+   MOBILE
+=========================================== */
+
+@media(max-width:768px){
+
+.preview{
+
+height:180px;
+
+}
+
+h1{
+
+font-size:28px;
+
+}
+
+}
+
